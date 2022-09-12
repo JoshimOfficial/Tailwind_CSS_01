@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss Practice 04</title>
+    <link rel="shortcut icon" href="./imgs/fav/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Rubik:ital,wght@1,300&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font">
+    <div class="container m-auto p-2">
+        <div class="main">
+            <img src="./imgs/pics/cover.webp" class="cover_pic" alt="cover_photo" />
+            <div class="profile_main">
+                <img src="./imgs/pics/profile.jpg" class="profile_pic"/>
+               <div class="flex flex-col mt-[25px] leading-tight"> 
+                    <span class="user_name">Joshim Uddin</span>
+                    <span class="user_bio">~Pro-gamer</span>
+                </div>
+            </div>
+            <div class="flex flex-row w-full justify-around">
+                <button class="btn">Follow</button>
+                <button class="btn">Message</button>
+            </div>
+            <hr class="mt-4">
+            <span class="text-gray-500 italic mt-7">Recent post:-</span>
+
+            <div class="post_sec">
+                <div class="mt-14">
+                    <div class="flex flex-row relative mt-[-45px] items-center">
+                        <img src="./imgs/pics/profile.jpg" class="time_line_profile_pic"/>
+                        <div class="flex flex-col">
+                            
+                                <span class="text-green-500 rounded ml-2 text-sm">Joshim Uddin</span>
+
+
+                                <div class="flex flex-row">             
+                                    <span class="text-gray-500 text-sm ml-2"> <i class="fa fa-globe" aria-hidden="true"></i> 5 mins.</span>
+                         
+                                    <p class="text-sm text-gray-500">&nbsp; Updated a status.</p>
+                                </div>
+                   
+                        </div>
+                </div>
+                <div class="mt-2">
+                    <p class="text-white leading-tight">My code never has bugs, it just develops random unexpected features.
+                        A programmer is a person who fixed a problem that you don’t know you have, in a way you don’t understand.</p>
+                </div>
+
+                <div class="like_cmnt_sec">
+                    <div class="text-blue-500 text-2xl cursor-pointer">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                    <div class="text-blue-500 text-2xl ml-2 cursor-pointer">
+                        <i class="fa fa-commenting" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="text-blue-500 text-2xl ml-2 cursor-pointer">
+                        <i class="fa fa-share-square-o" aria-hidden="true"></i>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+
+
+
+
+            <div class="post_sec">
+                <div class="mt-14">
+                    <div class="flex flex-row relative mt-[-45px] items-center">
+                        <img src="./imgs/pics/profile.jpg" class="time_line_profile_pic"/>
+                        <div class="flex flex-col">
+                            
+                                <span class="text-green-500 rounded ml-2 text-sm">Joshim Uddin</span>
+
+                                <div class="flex flex-row">             
+                                    <span class="text-gray-500 text-sm ml-2"> <i class="fa fa-globe" aria-hidden="true"></i> 50 mins.</span>
+                         
+                                    <p class="text-sm text-gray-500">&nbsp; Updated a status.</p>
+                                </div>
+                   
+                        </div>
+                </div>
+                <div class="mt-2">
+                    <p class="text-white leading-tight">A programmer is just a tool which transforms caffeine into code..</p>
+                </div>
+
+                <div class="like_cmnt_sec">
+                    <div class="text-blue-500 text-2xl cursor-pointer">
+                        <i class="fa fa-heart" aria-hidden="true"></i>
+                    </div>
+                    <div class="text-blue-500 text-2xl ml-2 cursor-pointer">
+                        <i class="fa fa-commenting" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="text-blue-500 text-2xl ml-2 cursor-pointer">
+                        <i class="fa fa-share-square-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <hr class="mt-2">
+            <span class="text-green-500">Recommend to you:</span>
+            <div class="flex flex-row mt-2 justify-between text-sm">
+                <div class="flex flex-col items-center">
+                    <img src="./imgs/pics/profile_01.jpg" class="w-14 h-14 rounded-full object-cover" />
+                    <span class=" text-green-500 cursor-pointer">Follow +</span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <img src="./imgs/pics/profile_02.jpg" class="w-14 h-14 rounded-full object-cover" />
+                    <span class=" text-green-500 cursor-pointer">Follow +</span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <img src="./imgs/pics/profile_03.jpg" class="w-14 h-14 rounded-full object-cover" />
+                    <span class=" text-green-500 cursor-pointer">Follow +</span>
+                </div>
+
+                <div class="flex flex-col items-center">
+                    <img src="./imgs/pics/profile_04.jpg" class="w-14 h-14 rounded-full object-cover" />
+                    <span class=" text-green-500 cursor-pointer">Follow +</span>
+                </div>
+
+                
+            </div>
+    </div>
+</body>
+</html>
+
+
